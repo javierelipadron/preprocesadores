@@ -1,0 +1,192 @@
+/* Etiquetas generales */
+body {
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Alineacion de texto */
+.text-right {
+  text-align: right;
+}
+
+/* Contenido principal */
+.contenido {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: justify;
+  padding-top: 30px;
+}
+
+/* Titulo principal */
+.titulo {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  background: #184371;
+  margin: 0px;
+}
+
+/* Header */
+nav {
+  width: 100%;
+  height: 70px;
+  background: #f8f8f8;
+  display: flex;
+  border-bottom: 2px solid #fff;
+  box-shadow: 5px 10px #888888;
+}
+
+.logo {
+  margin-right: 20px;
+  order: 1;
+  width: 80%;
+}
+
+.logo img {
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+/* Menu del documento */
+.menu {
+  list-style: none;
+  display: inline-flex;
+  order: 2;
+}
+
+.menu li {
+  min-width: 50px;
+  padding: 10px 5px;
+  font-size: 16px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  background: #184371;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.menu li a:hover {
+  background: orange;
+}
+
+/* banner */
+.banner {
+  width: 100%;
+  background-image: url("../img/banner.png");
+  min-height: 300px;
+  text-align: center;
+}
+
+.banner .titulos {
+  padding-top: 50px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.banner .titulos h2 {
+  font-weight: bold;
+}
+
+.banner .titulos p {
+  margin: 0px;
+}
+
+/* Tabla de Fondos */
+.div-tabla {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.div-tabla table {
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.div-tabla table th {
+  padding: 10px;
+  background: #ccc;
+  border: 1px solid #ccc;
+  font-size: 20px;
+}
+
+.div-tabla table td {
+  padding: 15px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Fondos */
+.fondo_a {
+  color: #ee3823;
+  font-weight: bold;
+}
+
+.fondo_b {
+  color: #f99b41;
+  font-weight: bold;
+}
+
+.fondo_c {
+  color: #659352;
+  font-weight: bold;
+}
+
+.fondo_d {
+  color: #5e8ac7;
+  font-weight: bold;
+}
+
+.fondo_e {
+  color: #5376ba;
+  font-weight: bold;
+}
+
+/* Formularios */
+.div-form label {
+  color: #184371;
+}
+
+.div-form input {
+  width: 100%;
+  border: 1px solid #184371;
+  height: 37px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.div-form textarea {
+  width: 100%;
+  border: 1px solid #184371;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.div-form button {
+  padding: 10px;
+  border-radius: 10px;
+  background: orange;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+  font-size: 16px;
+  background: #184371;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
